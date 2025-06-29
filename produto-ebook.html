@@ -15,18 +15,43 @@
 <body>
   <header>
     <h1>E-book Personalizado</h1>
-    <p>Receba um e-book único, feito para suas necessidades.</p>
+    <p>Tenha um e-book único, criado sob medida para seu público-alvo. Entregamos com design profissional, pronto pra vender.</p>
   </header>
+
   <main>
-    <h2>Preço: R$29,90</h2>
-    <p><strong>Chave Pix:</strong> db1cb656-7a6b-46e5-a061-e915447d3c90</p>
-    <button onclick="copiarPix()">Copiar chave Pix</button>
-    <h3>Como funciona:</h3>
-    <ol>
-      <li>Copie a chave Pix e faça o pagamento do valor indicado.</li>
-      <li>Você receberá o produto no seu e-mail em até 24h.</li>
-    </ol>
+    <section class="product-details">
+      <h2>O que você recebe:</h2>
+      <ul>
+        <li>Conteúdo exclusivo (até 20 páginas)</li>
+        <li>Design de capa e diagramação</li>
+        <li>Entrega em PDF pronto pra download</li>
+      </ul>
+
+      <h2>Preço: R$29,90</h2>
+      <p><strong>Chave Pix:</strong> db1cb656-7a6b-46e5-a061-e915447d3c90</p>
+      <button onclick="copiarPix()">Copiar chave Pix</button>
+
+      <h3>Como funciona:</h3>
+      <ol>
+        <li>Copie a chave Pix e pague o valor indicado.</li>
+        <li>Envie o comprovante para nosso e-mail ou WhatsApp (opcional).</li>
+        <li>Receba seu e-book personalizado em até 24h.</li>
+      </ol>
+    </section>
+
     <a href="index.html">← Voltar para a loja</a>
   </main>
+
+  <footer>
+    <p>© 2025 Prodify — Todos os direitos reservados.</p>
+  </footer>
+
+  <script>
+    function copiarPix() {
+      navigator.clipboard.writeText("db1cb656-7a6b-46e5-a061-e915447d3c90");
+      alert("Chave Pix copiada com sucesso!");
+    }
+  </script>
 </body>
+
 </html>
