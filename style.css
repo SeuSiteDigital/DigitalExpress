@@ -146,3 +146,30 @@ footer {
   color: #1e3a8a;
 }
 
+.product-details {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.product-details ul {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto 20px;
+}
+
+.product-details ol {
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.product-details button {
+  display: block;
+  margin: 20px auto;
+}
+
+
